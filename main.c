@@ -1,6 +1,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include "bibliothèque.h"
+
 int main( void ) {
     int choix, nb, nbr, expo, result, first, second;
     unsigned int n;
@@ -53,5 +54,6 @@ int main( void ) {
                 break;
         }
     }while(choix != 0);
+
     return EXIT_SUCCESS;
 }
